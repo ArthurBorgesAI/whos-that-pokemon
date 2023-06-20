@@ -6,6 +6,7 @@ import { QuizProvider } from "./contexts/quizContext";
 
 import "./index.css";
 
+document.title = "Quem é esse Pokemon?";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
